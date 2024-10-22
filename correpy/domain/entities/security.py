@@ -9,7 +9,7 @@ from typing import Optional
 # 11 BDRs, ETs e Units / BOVA11
 
 # Format XXXXY or XXXXYF or XXXXYB where Y can be 3, 4, 11
-BASIC_TICKER_PATTERN = "([A-Z-0-9]{4})(2|3|4|5|6|11|12)(F|B)?"
+BASIC_TICKER_PATTERN = "([A-Z-0-9]{4})(1|2|3|4|5|6|11|12)(F|B)?"
 
 # Format XXXXYY where YY can be 31, 32, 33, 34, 35, 36, 39
 BDR_TICKER_PATTERN = "([A-Z-0-9]{4})(31|32|33|34|35|36|39)"
